@@ -1,6 +1,6 @@
 # MneGen
 Mnemonic Generator / Addresses deriver from Mnemonics
- MNE.py
+*MNE.py*
 
  
 This Python code generates and shuffles mnemonic phrases while ensuring that each generated mnemonic is unique. It then validates the mnemonics and writes the valid ones to a file named "found.txt." Here's a simple explanation of how it works:
@@ -25,7 +25,7 @@ If the shuffled mnemonic is valid, it prints it as a valid mnemonic along with i
 
 If the shuffled mnemonic is invalid, it prints it as an invalid mnemonic, and the loop continues.
 
-Mne_ad.py
+*Mne_ad.py*
 
 This Python code interacts with the "bitcoinlib" library to derive Bitcoin addresses from the mnemonic phrases stored in the "found.txt" file. The derived addresses are then written to a new file named "adr.txt". Here's a simple explanation of how it works:
 
