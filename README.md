@@ -26,6 +26,8 @@ If the shuffled mnemonic is valid, it prints it as a valid mnemonic along with i
 
 If the shuffled mnemonic is invalid, it prints it as an invalid mnemonic, and the loop continues.
 
+
+
 *Mne_ad.py*
 
 This Python code interacts with the "bitcoinlib" library to derive Bitcoin addresses from the mnemonic phrases stored in the "found.txt" file. The derived addresses are then written to a new file named "adr.txt". Here's a simple explanation of how it works:
